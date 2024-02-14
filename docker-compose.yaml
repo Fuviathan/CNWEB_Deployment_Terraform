@@ -1,0 +1,3 @@
+include:
+  - ./cnweb-fe/docker-compose.yaml
+  - ./cnweb-be/docker-compose.yaml
