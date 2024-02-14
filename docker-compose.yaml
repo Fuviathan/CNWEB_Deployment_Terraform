@@ -1,3 +1,9 @@
 include:
   - ../cnweb-fe/docker-compose.yaml
   - ../cnweb-be/docker-compose.yaml
+
+services:
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: cloudflared
+    command: tunnel --no-autoupdate run --token eyJhIjoiZmQ3Yjg3MGQ5NzMxYmM1ODdjMzlkMGEzYTNjNzRmNTgiLCJ0IjoiZDYxMzllN2EtMzM3OC00ZWI3LWJhYmEtNTIxN2NmMmVlZjkyIiwicyI6IlpqY3hZbUppTURNdE5ERmpOaTAwTTJNeExXSm1aRFl0WkdKaU5qSTFNall5T0RBeSJ9
