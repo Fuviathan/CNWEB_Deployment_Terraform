@@ -16,19 +16,15 @@ curl -fsSL https://get.docker.com | sh -
 
 Add user `ubuntu` to `docker` group
 
-```
-
+```bash
 sudo usermod -aG docker ubuntu
-
 ```
 
 Clone the repos
 
 ```bash
-
 git clone https://github.com/Fuviathan/CNWEB_Frontend.git cnweb-fe
 git clone https://github.com/Fuviathan/CNWEB_backend.git cnweb-be
-
 ```
 
 Deploy containers
