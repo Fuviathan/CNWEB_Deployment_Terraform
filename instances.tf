@@ -1,5 +1,5 @@
 resource "aws_instance" "cnweb" {
-  instance_type = "t1.micro"
+  instance_type = "t3.micro"
   ami           = "ami-0fa377108253bf620"
   security_groups = [
     "allow_ingress", "allow_egress"
