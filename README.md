@@ -27,6 +27,12 @@ git clone https://github.com/Fuviathan/CNWEB_Frontend.git cnweb-fe
 git clone https://github.com/Fuviathan/CNWEB_backend.git cnweb-be
 ```
 
+Pull docker images
+
+```bash
+docker compose pull
+```
+
 Deploy containers
 
 ```bash
